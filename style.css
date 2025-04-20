@@ -1,3 +1,31 @@
-table, td, tr{
-    border: 5px solid black;
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+
 }
+
+
+
+table, td, tr{
+    /* border-collapse: collapse; */
+    text-align: center;
+}
+
+td{
+    width: 25%;
+    height: 20%;
+
+    border: 1px solid black;
+    /* border-radius: 8px; */
+    border-spacing: 443px;
+}
+
+table{
+    width: 30vw;
+    height: 30vw;
+}
+
